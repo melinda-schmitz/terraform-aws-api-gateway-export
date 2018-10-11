@@ -24,19 +24,19 @@ variable "extensions" {
 }
 
 variable "openapi_version" {
-    description = "Version of the open API spec to export. 'swagger' or 'oas30'"
+    description = "Version of the open API spec to export. 'swagger' or 'oas30'."
     type        = "string"
     default     = "swagger"
 }
 
 variable "format" {
-    description = "Data format of the open API spec to export.  json or yaml"
+    description = "Data format of the open API spec to export.  json or yaml."
     type        = "string"
     default     = "json"
 }
 
 variable "depends_on" {
-    description = "Dummy variable to force dependency on external resource"
+    description = "Dummy variable to force dependency on external resource."
     type        = "string"
     default     = ""
 }
