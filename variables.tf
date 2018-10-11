@@ -34,3 +34,9 @@ variable "format" {
     type        = "string"
     default     = "json"
 }
+
+variable "depends_on" {
+    description = "Dummy variable to force dependency on external resource"
+    type        = "string"
+    default     = ""
+}
