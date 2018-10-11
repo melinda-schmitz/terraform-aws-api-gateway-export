@@ -1,0 +1,4 @@
+aws-requests-auth==0.4.2
+boto3==1.9.18
+click==7.0
+requests==2.19.1
