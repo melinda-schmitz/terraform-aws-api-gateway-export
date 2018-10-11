@@ -11,4 +11,9 @@ data "external" "api_export" {
         "--b64",
         "--terraform"
     ]
+
+    query = {
+        # This is just to force dependencies... Not used.
+        depends_on = "${var.depends_on}"
+    }
 }
