@@ -1,7 +1,7 @@
 module "api_gateway_export" {
-    source          = "../"
-    api_gateway_id  = "rg71x4z96c"
-    stage_name      = "labda-environment"
+    source          = "rojopolis/api-gateway-export-aws"
+    api_gateway_id  = "12345"
+    stage_name      = "prod"
     region          = "us-east-1"
     extensions      = "postman"
     format          = "json"
