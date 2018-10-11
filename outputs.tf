@@ -10,4 +10,5 @@ output "api_export_b64" {
 
 output "depends_on" {
     description = "Dummy output to force dependency on external resource."
+    value       = "${var.depends_on}"
 }
