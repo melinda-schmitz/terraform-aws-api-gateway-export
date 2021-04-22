@@ -1,6 +1,6 @@
 data "external" "api_export" {
     program = [
-        "python3",
+        "python",
         "${path.module}/scripts/export_api.py",
         "--api-gateway-id=${var.api_gateway_id}",
         "--stage-name=${var.stage_name}",
